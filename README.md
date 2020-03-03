@@ -17,18 +17,6 @@ I was provided with two sets of airline booking data for a flight: the one for m
 •cumulative  bookings:   number  of  cumulative  bookings  for  the  given  departure  date. The number of cumulative bookings on days prior =0 (i.e.  when departure date = booking date)is the final demand.
 •final demand (validation data set only):  final demand of the given departure date.
 •naive forecasts (validation data set only):  naive forecast of final demand for the given depar-ture date.
-
-OBJECTIVE 
-
-Write a function “airlineForecast(trainingDataFile,validationDataFile)”, which takes in two data: 
-
-•input:  file names for training and validation data set.
-
-•output:  a list of following results
-
-   – MASE (Mean Absolute Scaled Error) 
-   
-   – forecasts:  a dataFrame which contains departure date, booking date, and forecasts from model. 
    
 APPROACH 
 
