@@ -10,16 +10,13 @@ DATA
 I was provided with two sets of airline booking data for a flight: the one for model estimation (test) and the other for validation. Following are the given data columns: 
 
 •departure date:  departure date of the flight.
-
 •booking date:  date in which booking requests arrived.
-
 •cumulative  bookings:   number  of  cumulative  bookings  for  the  given  departure  date. The number of cumulative bookings on days prior =0 (i.e.  when departure date = booking date)is the final demand.
-
 •final demand (validation data set only):  final demand of the given departure date.
-
 •naive forecasts (validation data set only):  naive forecast of final demand for the given depar-ture date.
 
 OBJECTIVE 
+
 Write a function “airlineForecast(trainingDataFile,validationDataFile)”, which takes in two data: 
 •input:  file names for training and validation data set.
 •output:  a list of following results
@@ -27,8 +24,10 @@ Write a function “airlineForecast(trainingDataFile,validationDataFile)”, whi
    – forecasts:  a dataFrame which contains departure date, booking date, and forecasts fromyour model. 
    
 APPROACH 
+
 Combining both additive and simple multiplicative method to find the lowest error. By means, we compare the final forecast of the modified additive and simple multiplicative method on the training data, and picked the final forecast which yielded the lowest error.
    
 RESULT 
+
 final MASE error is lowered to 49%; reducing error level by 51 percentage point. 
 
