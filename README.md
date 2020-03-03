@@ -5,13 +5,18 @@ Demand forecasting is a crucial part of airline revenue management that aims to 
 
 This analysis was done by conducting each empirical approach individually and comparing the MASE and MAD of each model. The additive approach is to sum the cumulative booking and average of remaining seats based on days-prior, whereas the multiplicative approach is to divide the cumulative booking by booking rate based on days-prior.
 
-DATA 
+DATA
+
 I was provided with two sets of airline booking data for a flight: the one for model estimation (test) and the other for validation. Following are the given data columns: 
 
 •departure date:  departure date of the flight.
-•booking date:  date in which booking requests arrived.2
+
+•booking date:  date in which booking requests arrived.
+
 •cumulative  bookings:   number  of  cumulative  bookings  for  the  given  departure  date. The number of cumulative bookings on days prior =0 (i.e.  when departure date = booking date)is the final demand.
+
 •final demand (validation data set only):  final demand of the given departure date.
+
 •naive forecasts (validation data set only):  naive forecast of final demand for the given depar-ture date.
 
 OBJECTIVE 
