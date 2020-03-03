@@ -21,9 +21,13 @@ I was provided with two sets of airline booking data for a flight: the one for m
 OBJECTIVE 
 
 Write a function “airlineForecast(trainingDataFile,validationDataFile)”, which takes in two data: 
+
 •input:  file names for training and validation data set.
+
 •output:  a list of following results
+
    – MASE (Mean Absolute Scaled Error) 
+   
    – forecasts:  a dataFrame which contains departure date, booking date, and forecasts fromyour model. 
    
 APPROACH 
