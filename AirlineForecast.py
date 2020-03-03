@@ -1,6 +1,6 @@
 '''
-Subject:    IS5201 - Final Project
-Author:     Yovinda Pricila, Sylvester Setio, Pa Ousman Jobe
+Subject:    Airline Demand Forecasting
+Author:     Yovinda Pricila
 Date:       12/2/2019
 
 '''
