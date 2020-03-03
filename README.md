@@ -1,9 +1,12 @@
 # AirlineForecast
 This project is written in Python - utilizing Pandas and Numpy for data manipulation. 
 
-Demand forecasting is a crucial part of airline revenue management that aims to maximize revenueby  matching  demand  to  available  capacity.   Especially  short-term  demand  forecasts  of  4  weeksor less that precede the target departure day have critical impact on airline revenue managementoperations such as pricing decisions and inventory control. In short-term forecasting, one of the mostimportant data is advance booking information.  Airline customers may request reservations days,weeks, or even months prior to their intended departure date.  Airlines maintain these reservationprofiles  for  each  calender  day,  which  is  partial  data  until  the  departure  date.   Advance  bookinginformation, while incomplete, reflects the most recent demand shifts and seasonality.
+Demand forecasting is a crucial part of airline revenue management that aims to maximize revenueby  matching  demand  to  available  capacity.   Especially  short-term  demand  forecasts  of  4  weeksor less that precede the target departure day have critical impact on airline revenue management operations such as pricing decisions and inventory control. Airlines maintain these reservation profiles  for  each  calender  day,  which  is  partial  data  until  the  departure  date.   Advance  booking information, while incomplete, reflects the most recent demand shifts and seasonality.
 
-This analysis was done by conducting each empirical approach individually and comparing the MASE and MAD of each model. The additive approach is to sum the cumulative booking and average of remaining seats based on days-prior, whereas the multiplicative approach is to divide the cumulative booking by booking rate based on days-prior.
+This analysis was done by conducting each empirical approach individually and comparing the MASE and MAD of each model, before finally combining to create the final model. The goal of this project is to lower the MASE level as low as possible. 
+
+The additive approach is to sum the cumulative booking and average of remaining seats based on days-prior, 
+whereas the multiplicative approach is to divide the cumulative booking by booking rate based on days-prior.
 
 DATA
 
