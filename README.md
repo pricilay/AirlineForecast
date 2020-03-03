@@ -28,7 +28,7 @@ Write a function “airlineForecast(trainingDataFile,validationDataFile)”, whi
 
    – MASE (Mean Absolute Scaled Error) 
    
-   – forecasts:  a dataFrame which contains departure date, booking date, and forecasts fromyour model. 
+   – forecasts:  a dataFrame which contains departure date, booking date, and forecasts from model. 
    
 APPROACH 
 
